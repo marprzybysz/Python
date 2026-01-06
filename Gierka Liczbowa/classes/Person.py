@@ -13,13 +13,15 @@ class Person:
     def say_age(self):
         print ("Your age is {}".format(self.age))
 
+# 
+# marcin = Person(
+#    input("Wpisz imię: "),
+#    input("Wpisz wagę: "),
+#    input("Wpisz wiek: ")
+#    )
+# print("\n")
 
-marcin = Person(
-    input("/nWpisz imię: "),
-    input("Wpisz wagę: "),
-    input("Wpisz wiek: ")
-    )
-marcin.say_hello()
-marcin.say_weight()
-marcin.say_age()
+# marcin.say_hello()
+# marcin.say_weight()
+# marcin.say_age()
 
