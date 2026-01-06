@@ -6,10 +6,9 @@ class Person:
     def say_hello(self):
         print("Hello {}!".format(self.name))
     
-    def weight(self):
+    def say_weight(self):
         print("Your weight is {}".format(self.weight))
 
-
-marcin = Person('Marcin')
+marcin = Person('Marcin', 30)
 marcin.say_hello()
-marcin.weight()
+marcin.call_weight()
