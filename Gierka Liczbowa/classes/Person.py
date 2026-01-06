@@ -14,6 +14,7 @@ class Person:
         print ("Your age is {}".format(self.age))
 
 # 
+
 # marcin = Person(
 #    input("Wpisz imię: "),
 #    input("Wpisz wagę: "),
@@ -24,4 +25,3 @@ class Person:
 # marcin.say_hello()
 # marcin.say_weight()
 # marcin.say_age()
-
