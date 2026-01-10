@@ -1,4 +1,4 @@
-# Tworzenie klasy Bilioteki oraz Ksiażki
+# Tworzenie klasy Library oraz Book
 
 class Book:
     def __init__(self, title, author):
@@ -20,3 +20,4 @@ library = Library()
 library.add_book(Book("Pan Tadeusz", "Adam Mickiewicz"))
 library.add_book(Book("Quo vadis", "Henryk Siekiewicz"))
 library.display_books()
+
