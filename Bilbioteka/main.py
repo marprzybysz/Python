@@ -3,9 +3,9 @@ import classes/Book
 
 # Prosta baza danych na podstawie wywołania klas Library/Book
 
-library = Library()
-library.add_book(Book("Pan Tadeusz", "Adam Mickiewicz"))
-library.add_book(Book("Quo vadis", "Henryk Siekiewicz"))
-library.display_books()
+title = input("Wpisz tytuł książki: ")
+author = input("Wpisz tytuł autora: ")
 
-library.add_book(Book(input("Wpisz tytuł ksiązki: "), "Adam Mickiewicz"))
+library = Library()
+library.add_book(Book(title, author))
+library.display_books()
