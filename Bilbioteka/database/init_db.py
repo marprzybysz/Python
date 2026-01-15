@@ -1,4 +1,4 @@
-# Wywołanie bilbioteki SQLite 3 i stworzenie pierwszej tabeli "books" oraz status ready
+# Wywołanie bilbioteki SQLite 3 i stworzenie pierwszej tabeli "books" oraz status ready 
 
 from database import get_connection
 
